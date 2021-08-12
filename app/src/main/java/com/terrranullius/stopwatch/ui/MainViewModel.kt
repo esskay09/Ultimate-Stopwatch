@@ -14,7 +14,6 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(val lapDao: LapDao) : ViewModel() {
 
-
     fun insertLap(lap: Lap) = viewModelScope.launch { lapDao.insertLap(lap) }
 
     fun deleteAll() = viewModelScope.launch { lapDao.deleteAll() }
