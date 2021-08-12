@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Dmt">#2676ED</color>
+    <color name="Dbg">#171515</color>
+    <color name="Dml">#000000</color>
+    <color name="DBut">#41403e</color>
+    <color name="Lightlapv">#1C86EE</color>
+    <color name="Lightlapp">#CD5555</color>
+    <color name="Dbuttxt">#040402</color>
+</resources>

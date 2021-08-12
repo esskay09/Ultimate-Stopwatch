@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context=".ui.MainActivity">
+
+    <item
+        android:id="@+id/s"
+        android:title="Stopwatch"
+		android:icon="@drawable/s"
+		android:orderInCategory="100"
+		app:showAsAction="always"
+	/>
+	<item 
+		android:id="@+id/settings"
+		android:title="settings"
+		android:icon="@drawable/settings"
+		android:orderInCategory="150"
+		app:showAsAction="always"
+	/>
+
+</menu>

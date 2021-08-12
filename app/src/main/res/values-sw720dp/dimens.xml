@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="maintextsz">240sp</dimen>
+    <dimen name="microsec">70sp</dimen>
+    <dimen name="nanosec">60sp</dimen>
+    <dimen name="buttontext">60sp</dimen>
+    <dimen name="dot">170sp</dimen>
+    <dimen name="add">85sp</dimen>
+
+    <dimen name="Lmaintextsz">230sp</dimen>
+    <dimen name="Lmicrosec">70sp</dimen>
+    <dimen name="Lnanosec">20sp</dimen>
+    <dimen name="Lbuttontext">25sp</dimen>
+    <dimen name="Ldot">175sp</dimen>
+</resources>

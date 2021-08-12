@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="40dp"
+	android:orientation="horizontal"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="match_parent"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="0dp"
+		android:layout_weight="4"
+		android:text="Medium Text"
+		android:textSize="@dimen/nanosec"
+		android:textColor="#CD5555"
+		android:id="@+id/timesposition"
+		android:gravity="start" />
+	
+	<TextView
+		android:layout_height="match_parent"
+		android:layout_width="0dp"
+		android:layout_weight="9"/>
+
+	<TextView
+		android:layout_height="match_parent"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="0dp"
+		android:text="Medium Text"
+		android:layout_weight="10"
+		android:textSize="@dimen/Lnanosec"
+		android:textColor="#1C86EE"
+		android:id="@+id/timesvalue"
+		android:gravity="end"
+		android:layout_gravity="end" />
+
+</LinearLayout>
+

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/Dbg">
+
+	<LinearLayout
+		android:id="@+id/theme2darklinearlayout"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="27"
+		android:orientation="horizontal"
+		android:background="@color/Dml"
+		android:layout_gravity="center">
+
+		<TextView
+			android:id="@+id/hours"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="4"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Lmaintextsz"
+			android:gravity="center"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:paddingBottom="9dp"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/theme2darkdot1"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:text=":"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Ldot"
+			android:gravity="left|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:textStyle="bold"
+			android:paddingBottom="17dp"/>
+
+		<TextView
+			android:id="@+id/min_tens"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="4"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Lmaintextsz"
+			android:gravity="right|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:paddingBottom="9dp"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/min_unit"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="4"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Lmaintextsz"
+			android:gravity="left|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:paddingBottom="9dp"
+			android:textStyle="normal|bold" />
+
+		<TextView
+			android:id="@+id/theme2darkdot2"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:text=":"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Ldot"
+			android:gravity="left|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:textStyle="bold"
+			android:paddingBottom="17dp"/>
+
+		<TextView
+			android:id="@+id/sec_tens"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="4"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Lmaintextsz"
+			android:gravity="right|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:paddingBottom="9dp"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/sec_unit"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="4"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="@dimen/Lmaintextsz"
+			android:gravity="left|center_vertical"
+			android:textColor="@color/Dmt"
+			android:typeface="sans"
+			android:paddingBottom="9dp"
+			android:textStyle="normal|bold" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="8"
+		android:orientation="horizontal"
+		android:id="@+id/llmicronano"
+		android:gravity="end">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/last_lap_view"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textColor="@color/Lightlapv"
+			android:layout_gravity="center_vertical"
+			android:background="@color/Dml"
+			android:textSize="@dimen/Lnanosec"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:typeface="sans"
+			android:textStyle="bold" />
+
+		<TextView
+			android:id="@+id/microsec"
+			android:text="0"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textColor="#1EB5DD"
+			android:typeface="serif"
+			android:textSize="@dimen/Lmicrosec"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:id="@+id/nanosec"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="00"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#1EB5DD"
+			android:textSize="@dimen/Lnanosec"
+			android:typeface="serif"
+			android:textStyle="bold" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/ll_buttons"
+		android:layout_height="0dp"
+		android:layout_width="fill_parent"
+		android:layout_weight="7"
+		android:orientation="horizontal">
+
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="10"
+			android:text="LS"
+			android:background="@color/DBut"
+			android:textColor="@color/Dbuttxt"
+			android:textSize="@dimen/Lbuttontext"
+			android:onClick="ls" />
+
+		<TextView
+			android:layout_height="match_parent"
+            android:layout_weight="1"
+			android:layout_width="wrap_content" />
+
+		<Button
+			android:textColor="@color/Dbuttxt"
+			android:id="@+id/lap_reset_button"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="RESET"
+			android:background="@color/DBut"
+			android:onClick="resetclick"
+			android:textSize="@dimen/Lbuttontext"/>
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView3"
+			android:layout_weight="1" />
+
+		<Button
+			android:textColor="@color/Dbuttxt"
+			android:id="@+id/start_pause_button"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="START"
+			android:onClick="startclick"
+			android:textSize="@dimen/Lbuttontext"
+			android:background="@color/DBut"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

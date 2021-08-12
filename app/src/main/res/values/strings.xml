@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stopwatch</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="Themes">
+
+        <item>Light</item>
+        <item>Dark</item>
+
+    </string-array>
+
+    <string-array name="Themesv">
+
+        <item>0</item>
+        <item>1</item>
+
+    </string-array>
+
+<string name="abouttext">
+    "    Version: Alpha(1.0)
+    Creator: UC by Shaique khan
+    Contact: esskay099@gmail.com"
+
+</string>
+    <string name="stopwatch_start_button_start">Start</string>
+    <string name="stopwatch_start_button_pause">Pause</string>
+    <string name="stopwatch_reset_button_lap">lap</string>
+    <string name="stopwatch_start_button_resume">Resume</string>
+    <string name="stopwatch_reset_buttn_reset">Reset</string>
+
+<string name="lapTimeFormatted">+%1$s</string>
+</resources>

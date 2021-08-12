@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Stopwatch">
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Voice">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:title="Voice Notification"
+            android:summary="Speak elapsed Time"
+            android:key="voice" />
+        <Preference
+            android:title="Set Interval"
+            android:key="Intervalsetter">
+            <intent
+                android:targetPackage="com.example.sk.stopwatch"
+                android:targetClass="com.example.sk.stopwatch.Tempp"
+               />
+        </Preference>
+
+        <EditTextPreference
+            android:defaultValue="1.0"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Speech Rate"
+            android:key="rate" />
+        <EditTextPreference
+            android:defaultValue="1.0"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Pitch"
+            android:key="pitch" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:title="Speak on Lap"
+            android:key="voiceonlap" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Themes">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:title="Theme"
+        android:entries="@array/Themes"
+        android:entryValues="@array/Themesv"
+        android:key="list"
+        android:defaultValue="0"
+        android:summary="Light"/>
+    <PreferenceCategory android:title="Application">
+
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="Keep Device Awake"
+        android:key="sleep"
+        android:summary="Needs the app to be restarted"/>
+    <Preference
+       android:title="About"
+        android:key="about">
+        <intent
+            android:targetPackage="com.example.sk.stopwatch"
+            android:targetClass="com.example.sk.stopwatch.About"/>
+    </Preference>
+
+</PreferenceScreen>
